@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url(https://media.istockphoto.com/id/1133458949/photo/kids-educational-developing-toys-frame-on-white-background-top-view-flat-lay-copy-space-for.webp?b=1&s=170667a&w=0&k=20&c=L-JYN-tlNNjRTDFnBJunRCd8dsz3tg84jH7qkF2DsVM=) no-repeat;
+    background-size: cover;
+    /* background-position: center; */
+   
+    font-family:'Poppins','sans-serif';
+}
+#entireSectionOuter {
+    margin-top: 99px;
+}
+
+.alphabetOuter ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    grid-gap: 9px;
+}
+
+.alphabetOuter ul li {
+    list-style: none;
+    background-color: #a7d4ff;
+    color:#fff;
+    padding: 10px 31px;
+    min-width: 97px;
+    font-size: 2rem;
+    text-align: center;
+    border-radius: 90px;
+    cursor: pointer;
+}
+
+.resultSection {
+    text-align: center;
+}
+
+.resultSection img {
+    width: 80%;
+    border: 1px snow #f8f8f8;
+}
+.class h1{
+    text-align: center;
+    font-family: sniglet;
+}
+.h1{
+    text-align: center;
+    font-family:"Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ff7070;
+    box-shadow: 100px;
+}
