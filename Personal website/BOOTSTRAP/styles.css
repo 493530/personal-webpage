@@ -1,0 +1,68 @@
+/* Custom Navbar Styles */
+.navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #333 !important;
+    margin-left: 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #007bff !important;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='currentColor' stroke-width='2' d='M4 6h22M4 14h22M4 22h22'/%3E%3C/svg%3E");
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('colorlib.logo.jpg') no-repeat;
+    background-size: cover;
+    padding: 5rem 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.hero p {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.btn-light {
+    background-color: #fff;
+    color: #007bff;
+    font-weight: 600;
+}
+
+.btn-light:hover {
+    background-color: #f8f9fa;
+    color: #0056b3;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+header{
+    background: url(colorlib.logo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
